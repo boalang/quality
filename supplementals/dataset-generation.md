@@ -39,6 +39,7 @@ Slurm Job_id=10879225 Name=nr_job.sub Ended, Run time 20-16:15:09, COMPLETED, Ex
 #### NR90
 
 - nr90 size?
+- important changes on Bridges for the LM jobs: Don't need `-n 28` any more.
 
 Script to run the job on XSEDE
 ```text
@@ -49,7 +50,6 @@ Script to run the job on XSEDE
 #SBATCH -p LM
 #SBATCH --mem=455G
 #SBATCH -N 1
-#SBATCH -n 28
 #SBATCH -t 336:00:00
 #SBATCH --mail-user=hbagheri@iastate.edu
 #SBATCH --mail-type=begin
