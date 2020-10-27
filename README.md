@@ -18,6 +18,9 @@ Improving trustworthiness of the large-scale public databases
 
 - [BoaG query on list of taxonomic assignments](http://boa.cs.iastate.edu/boag/?q=boa/job/public/80)
 
+- [BoaG query for the taxonomic assignments in NR95 clusters](http://boa.cs.iastate.edu/boag/?q=boa/job/public/82)
+
+
 
 ## Figures and charts references
 - [Charts in google sheets](https://docs.google.com/spreadsheets/d/16XEiXRGH7UleuuQzU2gg_gpD-0Xkr3RDw09WzFhV8g8/edit#gid=1064192369)
