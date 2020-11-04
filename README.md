@@ -1,5 +1,5 @@
-# trustworthiness
-Improving trustworthiness of the large-scale public databases
+# Data Quality of NR database
+Improving data quality of  taxonomic assignments in  large-scale public databases
 
 
 
