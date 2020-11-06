@@ -20,6 +20,13 @@ Improving data quality of  taxonomic assignments in  large-scale public database
 
 - [BoaG query for the taxonomic assignments in NR95 clusters](http://boa.cs.iastate.edu/boag/?q=boa/job/public/82)
 
+## Evaluation
+
+### Simulated dataset
+
+### RNA dataset
+
+### UniProt (UniRef90) clusters
 
 
 ## Figures and charts references
