@@ -20,15 +20,25 @@ Improving data quality of  taxonomic assignments in  large-scale public database
 
 - [BoaG query for the taxonomic assignments in NR95 clusters](http://boa.cs.iastate.edu/boag/?q=boa/job/public/82)
 
-## Evaluation
-
+# Evaluation
 ### Simulated dataset
+- [Link](simulated)
 
-### RNA dataset
+### Manual Analysis
+- [Link](manual)
 
-### UniProt (UniRef90) clusters
+### Literature dataset
 
-### Manual analysis
+### UniProt --UniRef90 (clusters at 90% sequence similarity)
+- Dataset link: https://www.uniprot.org/uniref/?query=&fil=identity:0.9
+
+Following are examples of misclassifications in the 90% clusters
+```text
+root conflict in  UniRef90_I3TC36
+cellular organisms conflict UniRef90_I3TC36
+superkingdom conflict UniRef90_I3TC36
+phylum conflict UniRef90_I3TC36
+```
 
 
 ## Figures and charts references
