@@ -28,6 +28,8 @@ Improving data quality of  taxonomic assignments in  large-scale public database
 
 ### UniProt (UniRef90) clusters
 
+### Manual analysis
+
 
 ## Figures and charts references
 - [Charts in google sheets](https://docs.google.com/spreadsheets/d/16XEiXRGH7UleuuQzU2gg_gpD-0Xkr3RDw09WzFhV8g8/edit#gid=1064192369)
