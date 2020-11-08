@@ -68,4 +68,10 @@ superkingdom conflict UniRef90_I3TC36
 phylum conflict UniRef90_I3TC36
 ```
 
+### Run time 
+
+take 1M sample and check for common1 and common2
+` python ~/Documents/MyGithub/docs/nr_functions/seq_clstr_conflict.py /Users/hbagheri/Downloads/nr_protein_functions/95-part-r-00000clustr-seq ../boag-job82-output.txt_converted nr_single_taxa_converted_1M > log_conf_1M`
+
+
 

@@ -1,18 +1,3 @@
-## Evaluation
-
-### Run time 
-
-take 1M sample and check for common1 and common2
-` python ~/Documents/MyGithub/docs/nr_functions/seq_clstr_conflict.py /Users/hbagheri/Downloads/nr_protein_functions/95-part-r-00000clustr-seq ../boag-job82-output.txt_converted nr_single_taxa_converted_1M > log_conf_1M`
-
-
-see results in the google spreadsheet:
-https://docs.google.com/spreadsheets/d/11FK-I-aPm0aHX9qo-9pDdd062rRfnG8mDPnD8RRNGdY/edit#gid=1516562968
-
-- **Q: How much did it take last paper? compared with SATIVA?** 
-- **Q: what is reported time on total detection for the previous time? 8 hours????**
-    - 7 hours for the 29M protein sequences that have more than one distinct taxa
-
 ## Simulated dataset
 We randomly assigned a taxa to a sample of 1M sequences and then checked with our approach.
 We repeated this experiment three times and reported the average.
@@ -48,21 +33,3 @@ We repeated this experiment three times and reported the average.
             - confusion matrix online: http://onlineconfusionmatrix.com/
         - FP =10: due to the tree error (ETE library error main reason is the ncbi taxa database is changing)
         - FN=50: small clusters, and tree didn't generate due to change in the taxa
-
-
-### Real world dataset
-
-We tested our approach on the SATIVA dataset. 
-
-### Manual analysis
-We took a sample size of 1000 from the NR database
-- Location: `/Users/hbagheri/Downloads/nr_taxa`
-- file: 
-    - few lines example:
-        ```text
-            XP_003765657 7572566 [('9305', 1)] [('13616', 1), ('38626', 1), ('9305', 1)]
-            OYX12355 47820375 [('1970311', 1)] [('553814', 5), ('12916', 4), ('1144317', 1)]
-            KRX85815 66804529 [('990121', 1)] [('78828', 1), ('990121', 1)]  
-        ```
-
-
